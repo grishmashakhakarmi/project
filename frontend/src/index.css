@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #0071fe;
+  --error-color: #f23648;
+  --error-bg-color: #fddfe2;
+  --success-color: #21a67a;
+  --success-bg-color: #e0eee4;
+  --highlight-color: #FF4600 ;
+}
+ #app {
+     font-family: Avenir, Helvetica, Arial, sans-serif;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     text-align: center;
+     color: #2c3e50;
+ }
+
+ #nav {
+     padding: 30px;
+ }
+
+ #nav a {
+     font-weight: bold;
+     color: #2c3e50;
+ }
+
+ #nav a.router-link-exact-active {
+     color: #42b983;
+ }
+.input-field.has-error {
+  background-color: var(--error-bg-color);
+  color: var(--error-color);
+}
+
+.input-field.has-error:focus {
+  border-color: var(--error-color);
+}
+
+.input-field.has-error {
+  color: var(--error-color);
+}
+
+.input-field.success {
+  background-color: var(--success-bg-color);
+  color: var(--success-color);
+}
+
+.input-field.success:focus {
+  border-color: var(--success-color);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.pointer:hover{
+  color:var(--highlight-color) !important;
+}

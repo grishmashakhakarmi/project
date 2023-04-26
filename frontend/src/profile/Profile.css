@@ -1,0 +1,40 @@
+@media (min-width: 786px){
+    .profile-container{
+    padding-top:50px;
+    margin: 19px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.profile-div-sidebar, .profile-div-content{
+    padding: 15px;
+
+}
+
+.profile-div-content{
+    width: 90%;
+    height: 150vh;
+    
+}
+.profile-div-sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    width: 30%;
+    height: 25vh;
+}
+}
+@media (max-width: 786px){
+    .profile-div-sidebar{
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-bottom: 2px ridge black;
+
+    }
+    .profile-div-content {
+	padding-top:20px;
+
+    }
+    
+}

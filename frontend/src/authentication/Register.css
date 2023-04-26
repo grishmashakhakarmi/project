@@ -1,0 +1,44 @@
+.register-container{
+     margin-top: 10px;
+     padding: 0 !important;
+     font-size: 14px;
+ }
+ .err{
+     padding-bottom:0px;
+ }
+ .form-register {
+     width: 100%;
+     max-width: 330px;
+     padding: 15px;
+     margin: auto;
+
+ }
+ .form-register .checkbox {
+     font-weight: 400;
+ }
+
+ .form-register .form-floating:focus-within {
+     z-index: 2;
+ }
+ .form-register input[type="email"] {
+     margin-bottom: -1px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+
+ .form-register input[type="password"] {
+     margin-bottom: 10px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+ }
+ .card-title{
+     font-weight: 900;
+     padding-top: 20px;
+ }
+
+ .password-show-hide{
+     background-color: transparent !important;
+     height: 58px;
+     border-left: 0;
+     width: 50px;
+ }

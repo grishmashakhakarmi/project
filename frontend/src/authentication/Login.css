@@ -1,0 +1,45 @@
+ .div-link{
+     margin-top:10px;
+ }
+ .form-signin {
+     width: 100%;
+     max-width: 330px;
+     padding: 15px;
+     margin: auto;
+
+ }
+
+ .form-signin .checkbox {
+     font-weight: 400;
+ }
+
+ .form-signin .form-floating:focus-within {
+     z-index: 2;
+ }
+
+ .form-signin input[type="email"] {
+     margin-bottom: -1px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+
+ .form-signin input[type="password"] {
+     margin-bottom: 10px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+ }
+ .card-title{
+     font-weight: 900;
+     padding-top: 20px;
+ }
+ .submit-btn{
+      transition: transform 0.3s ease-in-out;
+ }
+.submit-btn:hover{
+    transform: scale(1.1)
+ }
+
+.alert-error{
+     background-color: #ed4c51;
+     color:white;
+ }

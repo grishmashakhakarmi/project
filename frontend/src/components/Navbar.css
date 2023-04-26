@@ -1,0 +1,20 @@
+ .navbar-brand{
+     color:red !important;
+     padding-top: 0px !important;
+     padding-bottom: 0px !important;
+}
+ .search-form{
+     margin-top:-2px;
+ }
+ nav{
+     box-shadow: 0 4px 7px rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+     position:fixed;
+ }
+
+ .navbar-nav{
+     flex-direction: row-reverse !important;
+ }
+
+ #geocoder{
+     justify-content: center !important;
+ }
